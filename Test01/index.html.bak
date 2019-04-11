@@ -17,10 +17,12 @@ THREEx.ArToolkitContext.baseURL = 'https://rawgit.com/jeromeetienne/ar.js/master
       <a-marker preset="hiro">
             <a-entity
                 gltf-model="#animated-asset"
-                scale="0.05 0.05 0.05">
+                scale="0.1 0.1 0.1">
             </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
+                  <a-entity light="castShadow: true"></a-entity>
+                  
     </a-scene>
   </body>
 </html>
