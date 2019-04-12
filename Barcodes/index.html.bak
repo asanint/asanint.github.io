@@ -12,7 +12,7 @@
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 
         <a-assets>
-            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/asanint/asanint.github.io/master/Assets/Cake/Cake.gltf"></a-asset-item>
             <a-asset-item id="bread" src="https://raw.githubusercontent.com/asanint/asanint.github.io/master/Assets/Bread/Bread.gltf"></a-asset-item>
         </a-assets>
 
