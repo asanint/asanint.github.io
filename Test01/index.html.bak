@@ -9,7 +9,7 @@ THREEx.ArToolkitContext.baseURL = 'https://rawgit.com/jeromeetienne/ar.js/master
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
     	<a-assets>
-            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/asanint/asanint.github.io/master/Assets/Poly10k/Poly10k.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/asanint/asanint.github.io/master/Assets/Bread/Bread.gltf"></a-asset-item>
             
             																			
       </a-assets>
@@ -17,11 +17,11 @@ THREEx.ArToolkitContext.baseURL = 'https://rawgit.com/jeromeetienne/ar.js/master
       <a-marker preset="hiro">
             <a-entity
                 gltf-model="#animated-asset"
-                scale="0.1 0.1 0.1">
+                scale="1 1 1">
             </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
-                  <a-entity light="castShadow: true"></a-entity>
+                 <a-entity light="type: ambient; color: #fff"></a-entity>
                   
     </a-scene>
   </body>
