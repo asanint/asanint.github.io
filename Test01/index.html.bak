@@ -21,7 +21,8 @@ THREEx.ArToolkitContext.baseURL = 'https://rawgit.com/jeromeetienne/ar.js/master
             </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
-                 <a-entity light="type: ambient; color: #fff"></a-entity>
+      
+      <a-entity light="type: ambient; color: #fff"></a-entity>
                   
     </a-scene>
   </body>
