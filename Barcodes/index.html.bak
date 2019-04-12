@@ -30,6 +30,7 @@
          <a-entity
                 gltf-model="#bread"
                 scale="2 2 2">
+                shadow="cast: true; receive: true"
             </a-entity>
         </a-marker>
 
@@ -43,6 +44,8 @@
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
         <a-entity camera></a-entity>
           <a-entity light="type: ambient; color: #fff"></a-entity>
+          <a-entity light="type: directional; castShadows: true"></a-entity>
+           
           <a-plane rotation="-90 0 0" shadow="receive: true" shadow-material></a-plane>
           
         </a-scene>
