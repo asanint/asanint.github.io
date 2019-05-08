@@ -24,6 +24,9 @@
         <a-assets>
             <a-asset-item id="ship-obj" src="https://raw.githubusercontent.com/asanint/asanint.github.io/master/Assets/floorplan/floorplan.obj"></a-asset-item>
             <a-asset-item id="ship-mtl" src="https://raw.githubusercontent.com/asanint/asanint.github.io/master/Assets/floorplan/floorplan.mtl"></a-asset-item>
+            
+            <a-asset-item id="house-obj" src="https://raw.githubusercontent.com/asanint/asanint.github.io/master/Assets/oldhouse/oldhouse.obj"></a-asset-item>
+            <a-asset-item id="house-mtl" src="https://raw.githubusercontent.com/asanint/asanint.github.io/master/Assets/oldhouse/oldhouse.mtl"></a-asset-item>
         </a-assets>
 
         <a-marker id="animated-marker2" type='barcode' value='7'>
@@ -31,7 +34,7 @@
         </a-marker>
 
         <a-marker id="animated-marker" type='barcode' value='6'>
-           <a-entity obj-model="obj: #ship-obj; mtl: #ship-mtl"></a-entity>
+           <a-entity obj-model="obj: #house-obj; mtl: #house-mtl"></a-entity>
         </a-marker>
 
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
