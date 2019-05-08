@@ -1,7 +1,7 @@
 newmtl _bg4_objbase
 illum 4
 Kd 0.78 0.78 0.78
-Ka 0.24 0.24 0.24
+Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.50
 Ks 0.00 0.00 0.00
@@ -9,7 +9,7 @@ Ns 25.00
 newmtl _bg4_objcornice
 illum 4
 Kd 1.00 1.00 1.00
-Ka 0.30 0.30 0.30
+Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.50
 Ks 0.00 0.00 0.00
@@ -17,7 +17,7 @@ Ns 25.00
 newmtl _bg4_objdoor
 illum 4
 Kd 0.31 0.15 0.00
-Ka 0.09 0.05 0.00
+Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.50
 Ks 0.00 0.00 0.00
@@ -25,7 +25,7 @@ Ns 25.00
 newmtl _bg4_objfloor
 illum 4
 Kd 0.93 0.76 0.64
-Ka 0.28 0.23 0.19
+Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.50
 Ks 0.00 0.00 0.00
@@ -33,7 +33,7 @@ Ns 25.00
 newmtl _bg4_objglass
 illum 4
 Kd 0.30 0.47 0.37
-Ka 0.09 0.14 0.11
+Ka 0.00 0.00 0.00
 Tf 0.40 0.40 0.40
 Ni 1.50
 Ks 0.00 0.00 0.00
@@ -41,7 +41,7 @@ Ns 25.00
 newmtl _bg4_objrailing
 illum 4
 Kd 1.00 1.00 1.00
-Ka 0.30 0.30 0.30
+Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.50
 Ks 0.00 0.00 0.00
@@ -49,7 +49,7 @@ Ns 25.00
 newmtl _bg4_objwall
 illum 4
 Kd 0.85 0.80 0.71
-Ka 0.26 0.24 0.21
+Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.50
 Ks 0.00 0.00 0.00
@@ -57,7 +57,7 @@ Ns 25.00
 newmtl _bg4_objwall2
 illum 4
 Kd 0.64 0.53 0.32
-Ka 0.19 0.16 0.10
+Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.50
 Ks 0.00 0.00 0.00
@@ -65,42 +65,8 @@ Ns 25.00
 newmtl _bg4_objwater
 illum 4
 Kd 0.25 0.28 0.29
-Ka 0.25 0.28 0.29
+Ka 0.53 0.53 0.53
 Tf 0.60 0.60 0.60
 Ni 1.50
 Ks 0.41 0.47 0.48
 Ns 64.00
-newmtl blinn1SG
-illum 4
-Kd 0.14 0.61 1.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-Ks 0.00 0.00 0.00
-newmtl blinn2SG
-illum 4
-Kd 1.00 0.79 0.73
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-Ks 0.00 0.00 0.00
-newmtl initialShadingGroup
-illum 4
-Kd 0.50 0.50 0.50
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl lambert2SG
-illum 4
-Kd 0.00 0.97 0.83
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-newmtl phong2SG
-illum 4
-Kd 0.97 0.35 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-Ks 0.00 0.00 0.00
-Ns 0.00
