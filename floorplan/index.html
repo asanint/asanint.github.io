@@ -37,7 +37,8 @@
         <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
         <a-entity camera></a-entity>
           <a-entity light="type: directional; color: #fff" castShadows: true"></a-entity>
-           <a-entity light="type: directional; castShadow: true; intensity: 10.0;" position="-5 0 1">
+            <a-entity light="type: spot; angle: 25; target: #ship-obj"></a-entity>
+           <a-entity light="type: directional; castShadow: true; intensity: 3.0;" position="-5 0 1">
            
           <a-plane rotation="-90 0 0" shadow="receive: true" shadow-material></a-plane>
           
